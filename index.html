@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Day Predictor AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+
+  <!-- SCREEN 1 -->
+  <div id="screen-question">
+    <h1>Day Predictor AI 🤖</h1>
+    <span class="warning">Please kid stay away</span>
+
+    <h2>Tomorrow is which day?</h2>
+
+    <div class="options">
+      <button class="day">Monday</button>
+      <button class="day">Tuesday</button>
+      <button class="day">Wednesday</button>
+      <button class="day">Thursday</button>
+      <button class="day">Friday</button>
+      <button class="day">Saturday</button>
+      <button class="day">Sunday</button>
+    </div>
+
+    <button id="predictBtn" disabled>✨ PREDICT ✨</button>
+  </div>
+
+  <!-- SCREEN 2 -->
+  <div id="screen-loading" class="hidden">
+    <div class="loader"></div>
+    <h3>Consulting Elon Musk...</h3>
+    <div class="progress">
+      <div class="bar"></div>
+    </div>
+  </div>
+
+  <!-- SCREEN 3 -->
+  <div id="screen-result" class="hidden">
+    <h2>🎉 YOU'RE RIGHT!</h2>
+    <p class="badge">ShadowX Time Decoder</p>
+    <p class="quote">"Finally you decoded the code."</p>
+
+    <div class="iq">
+      Your IQ is higher than 99.9% of all humanity 😳
+    </div>
+
+    <button id="restart">🔄</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
