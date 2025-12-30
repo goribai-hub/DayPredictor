@@ -1,13 +1,7 @@
 {
-  "name": "fun",
+  "name": "day-predictor-ai",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
   "scripts": {
-  "start": "node server.js"
-},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+    "start": "npx serve ."
+  }
 }
